@@ -116,7 +116,7 @@ html {
 .watch-your-favorite-animal-online__subtitle{
     font-weight: normal;
     font-size: 18px;
-    line-height: 150%;
+    line-height: 27px;
     width: 430px;
     margin-bottom: 50px;
 }
@@ -174,7 +174,7 @@ html {
 .welcome-to-the-zoo__subtitle{
     width: 560px;
     font-size: 18px;
-    line-height: 150%;
+    line-height: 27px;
     margin-right: 40px;
     height: 213px;
 }
@@ -200,7 +200,7 @@ html {
 .how-we-work__subtitle{
     width: 560px;
     font-size: 18px;
-    line-height: 150%;
+    line-height: 27px;
     margin-left: 40px;
     height: 213px;
 }
@@ -231,7 +231,7 @@ html {
 .your-donation-makes-a-difference__subtitle{
     margin-top: 20px;
     font-size: 18px;
-    line-height: 150%;
+    line-height: 27px;
     color: #FFFFFF;
     width: 609px;
     margin-bottom: 50px;
@@ -241,7 +241,7 @@ html {
     font-style: normal;
     font-weight: 500;
     font-size: 26px;
-    line-height: 130%;
+    line-height: 34px;
     color: #FFFFFF;
     margin-bottom: 10px;
 }
@@ -320,7 +320,7 @@ input::-webkit-inner-spin-button {
 .meet-some-our-friends__subtitle{
     font-weight: 500;
     font-size: 26px;
-    line-height: 130%;
+    line-height: 34px;
     text-align: center;
     width: 920px;
     margin: 0 auto;
@@ -379,7 +379,7 @@ input::-webkit-inner-spin-button {
     font-family: "Montserrat";
     font-weight: 500;
     font-size: 26px;
-    line-height: 130%;
+    line-height: 34px;
     text-align: center;
     color: #FFFFFF;
     position: absolute;
@@ -400,7 +400,7 @@ input::-webkit-inner-spin-button {
 .meet-some-our-friends__title-animal{   
     font-weight: 500;
     font-size: 26px;
-    line-height: 130%;
+    line-height: 34px;
     text-align: center;
     color: #FFFFFF; 
     margin: 0 auto;
@@ -411,7 +411,7 @@ input::-webkit-inner-spin-button {
 .meet-some-our-friends__subtitle-animal{
     font-weight: normal;
     font-size: 18px;
-    line-height: 150%;
+    line-height: 27px;
     margin: 0 auto;
     color: #FFFFFF;
     width: 351px;
@@ -504,7 +504,7 @@ input::-webkit-inner-spin-button {
     font-style: normal;
     font-weight: 500;
     font-size: 26px;
-    line-height: 130%;
+    line-height: 34px;
     color: #FFFFFF;
     margin-right: 93px;
 }
@@ -525,7 +525,7 @@ input::-webkit-inner-spin-button {
     font-style: normal;
     font-weight: 500;
     font-size: 26px;
-    line-height: 130%;
+    line-height: 34px;
     margin-bottom: 50px;
 }
 
@@ -533,7 +533,7 @@ input::-webkit-inner-spin-button {
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 150%;  
+    line-height: 27px;  
     width: 560px;
 }
 
@@ -548,7 +548,7 @@ input::-webkit-inner-spin-button {
     font-style: normal;
     font-weight: 500;
     font-size: 26px;
-    line-height: 130%;
+    line-height: 34px;
     color: #FFFFFF;
     margin-right: 93px;
 }
@@ -569,7 +569,7 @@ input::-webkit-inner-spin-button {
     font-style: normal;
     font-weight: 500;
     font-size: 26px;
-    line-height: 130%;
+    line-height: 34px;
     margin-bottom: 50px;
 }
 
@@ -577,7 +577,7 @@ input::-webkit-inner-spin-button {
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 150%;  
+    line-height: 27px;  
     width: 560px;
 }
 
@@ -680,7 +680,7 @@ input::-webkit-inner-spin-button {
     text-align: center;
     font-weight: 500;
     font-size: 26px;
-    line-height: 130%;
+    line-height: 34px;
     margin-bottom: 20px;
 }
 
@@ -689,7 +689,7 @@ input::-webkit-inner-spin-button {
     margin: 0 auto;
     font-weight: normal;
     font-size: 18px;
-    line-height: 150%;
+    line-height: 27px;
 }
 
 .what-our-users-think__item-author{
@@ -786,7 +786,7 @@ input::-webkit-inner-spin-button {
     font-style: normal;
     font-weight: 500;
     font-size: 26px;
-    line-height: 130%;
+    line-height: 34px;
     text-align: center;
     color: #20113D;
     margin: auto;
@@ -836,7 +836,7 @@ input::-webkit-inner-spin-button {
     font-weight: normal;
     font-size: 18px;
     text-align: center;
-    line-height: 150%;
+    line-height: 27px;
     margin: 0 auto;
     color: #FFFFFF;
     width: 390px;
@@ -1002,7 +1002,7 @@ input::-webkit-inner-spin-button {
     width: 105px;
     height: 27px;
     font-size: 18px;
-    line-height: 150%;
+    line-height: 27px;
     text-decoration: none;
     color: #FFFFFF;
     margin-right: 50px;
@@ -1125,7 +1125,7 @@ input::-webkit-inner-spin-button {
     width: 545px;
     font-weight: normal;
     font-size: 18px;
-    line-height: 150%;
+    line-height: 27px;
     align-items: center;
 }
 
@@ -1142,7 +1142,7 @@ input::-webkit-inner-spin-button {
 .get-in-touch__input-capture{
     margin-bottom: 10px;
     font-size: 18px;
-    line-height: 150%;
+    line-height: 27px;
 }
 
 .get-in-touch__input::-webkit-input-placeholder,  
@@ -1150,7 +1150,7 @@ input::-webkit-inner-spin-button {
     font-family: "Montserrat";
     color:#969696;
     font-size: 18px;
-    line-height: 150%;
+    line-height: 27px;
 }
 
 .get-in-touch__input{
