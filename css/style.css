@@ -114,7 +114,6 @@ html {
 }
 
 .watch-your-favorite-animal-online__subtitle{
-    font-weight: normal;
     font-size: 18px;
     line-height: 27px;
     width: 430px;
@@ -238,7 +237,6 @@ html {
 }
 
 .your-donation-makes-a-difference__donate-capture{
-    font-style: normal;
     font-weight: 500;
     font-size: 26px;
     line-height: 34px;
@@ -409,7 +407,6 @@ input::-webkit-inner-spin-button {
 }
 
 .meet-some-our-friends__subtitle-animal{
-    font-weight: normal;
     font-size: 18px;
     line-height: 27px;
     margin: 0 auto;
