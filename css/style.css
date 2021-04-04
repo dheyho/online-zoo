@@ -371,7 +371,7 @@ input::-webkit-inner-spin-button {
 
 .meet-some-our-friends__item:hover{
     transform: scale(1.1);
-    transition: all 2s;
+    transition: all 1s;
 }
 .meet-some-our-friends__animal-caption{
     font-family: "Montserrat";
@@ -812,7 +812,7 @@ input::-webkit-inner-spin-button {
 
 .care__item.card:hover{
     transform: scale(1.1);
-    transition: all 2s;
+    transition: all 1s;
 }
 
 .care__item:last-child{
@@ -1049,6 +1049,16 @@ input::-webkit-inner-spin-button {
     top: 40%; 
 }
 
+.map__eagle.active {
+    left: 8.6%;
+    top: 39%;
+    opacity: 0; 
+}
+
+.active:hover {
+    opacity: 1; 
+}
+
 
 .map__croco{
     position: absolute;
@@ -1056,10 +1066,31 @@ input::-webkit-inner-spin-button {
     top: 42%;
 }
 
+.map__croco.active{
+    left: 19.2%;
+    top: 42.3%;
+    opacity: 0;
+}
+
+.active:hover {
+    opacity: 1; 
+}
+
+
 .map__lion{
     position: absolute;
     left: 39.3%;
     top: 47.8%;
+}
+
+.map__lion.active{
+    left: 39.55%;
+    top: 48%;
+    opacity: 0;
+}
+
+.active:hover {
+    opacity: 1; 
 }
 
 .map__gorilla{
@@ -1068,28 +1099,89 @@ input::-webkit-inner-spin-button {
     top: 50%;
 }
 
+.map__gorilla.active{
+    left: 47.75%;
+    top: 50.4%;
+    opacity: 0;
+}
+
+.active:hover {
+    opacity: 1; 
+}
+
+
 .map__lemur{
     position: absolute;
     left: 55%;
     top: 64%;
 }
 
+
+.map__lemur.active{
+    position: absolute;
+    left: 55.3%;
+    top: 64.3%;
+    opacity: 0;
+}
+
+
+.active:hover {
+    opacity: 1; 
+}
+
+
 .map__panda {
     position: absolute;
     right: 23.5%;
     top: 35.8%;
 }
+
+.map__panda.active {
+    right: 23.8%;
+    top: 36%;
+    opacity: 0;
+}
+
+
+.active:hover {
+    opacity: 1; 
+}
+
     
 .map__tiger {
     position: absolute;
     right: 19.3%;
     bottom: 26%;
 }
+
+
+.map__tiger.active {
+    right: 19.5%;
+    bottom: 27%;
+    opacity: 0;
+}
+
+
+.active:hover {
+    opacity: 1; 
+}
+
     
 .map__koala {
     position: absolute;
     right: 10%;
     bottom: 13%;
+}
+
+
+.map__koala.active {
+    right: 10.27%;
+    bottom: 14%;
+    opacity: 0;
+}
+
+.active:hover {
+    opacity: 1; 
 }
 
 
