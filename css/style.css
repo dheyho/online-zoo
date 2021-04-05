@@ -114,6 +114,7 @@ html {
 }
 
 .watch-your-favorite-animal-online__subtitle{
+    font-weight: 300;
     font-size: 18px;
     line-height: 27px;
     width: 430px;
@@ -141,12 +142,12 @@ html {
 }
 
 .watch-your-favorite-animal-online__text{
-    font-weight: 600;
+    font-weight: 500;
     font-size: 18px;
     line-height: 22px;
     text-transform: uppercase;
     color: #FFFFFF;
-    padding-right: 8px;
+    padding-right: 10px;
 }
 
 .welcome-to-the-zoo{
@@ -172,6 +173,7 @@ html {
 
 .welcome-to-the-zoo__subtitle{
     width: 560px;
+    font-weight: 300;
     font-size: 18px;
     line-height: 27px;
     margin-right: 40px;
@@ -197,6 +199,7 @@ html {
 }
 
 .how-we-work__subtitle{
+    font-weight: 300;
     width: 560px;
     font-size: 18px;
     line-height: 27px;
@@ -228,6 +231,7 @@ html {
 }
 
 .your-donation-makes-a-difference__subtitle{
+    font-weight: 300;
     margin-top: 20px;
     font-size: 18px;
     line-height: 27px;
@@ -258,6 +262,7 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 .your-donation-makes-a-difference__menu:before{
+    font-family: "Montserrat";
     border-left: 1px solid #FFFFFF;
     padding-left: 10px;
     border-radius: 5px;
@@ -268,6 +273,15 @@ input::-webkit-inner-spin-button {
     align-items: center;
     color:#FFFFFF;
     
+}
+
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
 }
 
 .your-donation-makes-a-difference__input-number{
@@ -283,6 +297,11 @@ input::-webkit-inner-spin-button {
 }
 
 ::-webkit-input-placeholder {color:#FFFFFF;}
+input[type="number"]::-webkit-input-placeholder {color:white;}
+input[type="number"]::-moz-placeholder          {color:white;}/* Firefox 19+ */
+input[type="number"]:-moz-placeholder           {color:white;}/* Firefox 18- */
+input[type="number"]:-ms-input-placeholder      {color:white;}
+
 
 .your-donation-makes-a-difference__button{
     display:flex;
@@ -407,6 +426,8 @@ input::-webkit-inner-spin-button {
 }
 
 .meet-some-our-friends__subtitle-animal{
+    text-align: center;
+    font-weight: 300;
     font-size: 18px;
     line-height: 27px;
     margin: 0 auto;
@@ -528,7 +549,7 @@ input::-webkit-inner-spin-button {
 
 .pay-and-feed__subtitle-about{
     font-style: normal;
-    font-weight: normal;
+    font-weight: 300;
     font-size: 18px;
     line-height: 27px;  
     width: 560px;
@@ -572,7 +593,7 @@ input::-webkit-inner-spin-button {
 
 .pay-and-feed__subtitle-about1{
     font-style: normal;
-    font-weight: normal;
+    font-weight: 300;
     font-size: 18px;
     line-height: 27px;  
     width: 560px;
@@ -631,7 +652,7 @@ input::-webkit-inner-spin-button {
 
 .what-out-users-think__subtitle{
     font-style: normal;
-    font-weight: 500;
+    font-weight: 300;
     font-size: 26px;
     line-height: 130%;
     width: 560px;
@@ -674,7 +695,7 @@ input::-webkit-inner-spin-button {
     margin-bottom: 20px;
 }
 .what-our-users-think__item-name{
-    text-align: center;
+    padding-left: 50px;
     font-weight: 500;
     font-size: 26px;
     line-height: 34px;
@@ -684,7 +705,7 @@ input::-webkit-inner-spin-button {
 .what-our-users-think__item-subname{
     width: 415px;
     margin: 0 auto;
-    font-weight: normal;
+    font-weight: 300;
     font-size: 18px;
     line-height: 27px;
 }
@@ -830,7 +851,7 @@ input::-webkit-inner-spin-button {
 
 .care__subtitle-animal{
     padding-top:30px;
-    font-weight: normal;
+    font-weight: 300;
     font-size: 18px;
     text-align: center;
     line-height: 27px;
@@ -995,6 +1016,7 @@ input::-webkit-inner-spin-button {
 }
 
 .footer__corp-link{
+    font-weight: 300;
     font-family: "Montserrat";
     width: 105px;
     height: 27px;
@@ -1212,7 +1234,7 @@ input::-webkit-inner-spin-button {
 
 .get-in-touch__subtitle{
     width: 545px;
-    font-weight: normal;
+    font-weight: 300;
     font-size: 18px;
     line-height: 27px;
     align-items: center;
@@ -1229,6 +1251,7 @@ input::-webkit-inner-spin-button {
 }
 
 .get-in-touch__input-capture{
+    font-weight: 300;
     margin-bottom: 10px;
     font-size: 18px;
     line-height: 27px;
@@ -1240,6 +1263,7 @@ input::-webkit-inner-spin-button {
     color:#969696;
     font-size: 18px;
     line-height: 27px;
+    font-weight: 300;
 }
 
 .get-in-touch__input{
@@ -1570,6 +1594,7 @@ input::-webkit-inner-spin-button {
 }
 
 .quick-donate__subtitle{
+    font-weight: 300;
     margin-top: 20px;
     font-size: 18px;
     line-height: 27px;
@@ -1734,7 +1759,7 @@ input::-webkit-inner-spin-button {
 
 .you-know__capture{
     font-style: normal;
-    font-weight: normal;
+    font-weight: 500;
     font-size: 18px;
     line-height: 150%;
 }
@@ -1780,6 +1805,7 @@ input::-webkit-inner-spin-button {
 }
 
 .you-know__paragraph{
+    font-weight: 500;
     width: 1160px;
     height: 189px;
     font-size: 18px;
@@ -1795,3 +1821,79 @@ input::-webkit-inner-spin-button {
     height: 243px;  
 }
 
+
+
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat Hairline'), local('Montserrat-Hairline'),
+     url('../fonts/montserrathairline.woff2') format('woff2'),
+    url('../fonts/montserrathairline.woff') format('woff'), 
+    url('../fonts/montserrathairline.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat Light'), local('Montserrat-Light'), 
+    url('../fonts/montserratlight.woff2') format('woff2'), 
+    url('../fonts/montserratlight.woff') format('woff'), 
+    url('../montserratlight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat'), local('Montserrat-Regular'),
+    url('../fonts/montserrat.woff2') format('woff2'), 
+    url('../fonts/montserrat.woff') format('woff'), 
+    url('../fonts/montserrat.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat Medium'), local('Montserrat-Medium'), 
+    url('../fonts/Montserrat-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'), 
+    url('../fonts/Montserrat-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat Bold'), local('Montserrat-Bold'), 
+    url('../fonts/montserratbold.woff2') format('woff2'), 
+    url('../fonts/montserratbold.woff') format('woff'), 
+    url('../fonts/montserratbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat Bold'), local('Montserrat-Bold'), 
+    url('../fonts/montserratbold.woff2') format('woff2'), 
+    url('../fonts/montserratbold.woff') format('woff'), 
+    url('../fonts/montserratbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat Black'), local('Montserrat-Black'), 
+    url('../fonts/montserratblack.woff2') format('woff2'), 
+    url('../fonts/montserratblack.woff') format('woff'), 
+    url('../fonts/montserratblack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
