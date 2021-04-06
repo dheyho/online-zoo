@@ -1398,7 +1398,13 @@ input[type="number"]:-ms-input-placeholder      {color:white;}
     align-items: center;
     display: flex;
 }
-    
+
+
+.side-bar__item-back:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
 .card-active {
     background: url(../assets/png/active-circle.png) no-repeat center;
 }
