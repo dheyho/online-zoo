@@ -60,11 +60,6 @@ html {
     color: #00A092;
 }
 
-.header__link.onpage:hover{
-    color: #000000;
-    opacity: .75;
-}
-
 
 .header__link.onpage:active{
     color:#FFFFFF;
