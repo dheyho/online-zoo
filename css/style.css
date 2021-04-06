@@ -321,6 +321,11 @@ input[type="number"]:-ms-input-placeholder      {color:white;}
     font-family: "Montserrat";
 }
 
+
+.meet-some-our-friends__link-card{
+    text-decoration: none;
+}
+
 .meet-some-our-friends__title{
     font-weight: 600;
     font-size: 54px;
@@ -868,6 +873,11 @@ input[type="number"]:-ms-input-placeholder      {color:white;}
     flex-direction: row;
     margin-top: 111px;
 }
+
+.care__link-card{
+    display: block;
+}
+
 
 .care__button:hover{
     opacity: .75;
