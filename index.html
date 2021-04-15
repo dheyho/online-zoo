@@ -46,7 +46,7 @@
                         </li>
                         <li class="header__item">
                             <a href="https://www.figma.com/file/lnK11foY8Aoa6oOlDXovVN/Online-ZOO-Project"
-                                class="header__link">
+                                class="header__link last">
                                 design
                             </a>
                         </li>
@@ -343,12 +343,12 @@
             <h2 class="pay-and-feed__title">pay and feed</h2>
             <div class="pay-and-feed__punkt">
                 <p class="pay-and-feed__number">01</p>
-                <img src="assets/svg/border.svg" alt="border">
+                <img src="assets/svg/border.svg" alt="border" class="pay-and-feed__border">
             </div>
             <div class="pay-and-feed__paragraph">
-                <img src="assets/png/pay1.png" alt="monkey">
+                <img src="assets/png/pay1.png" alt="monkey" class="pay-and-feed__img">
                 <div class="pay-and-feed__about">
-                    <img src="assets/svg/paylogo1.svg" alt="donation-is-important">
+                    <img src="assets/svg/paylogo1.svg" alt="donation-is-important" >
                     <h3 class="pay-and-feed__subtitle">Your donation has an impact</h3>
                     <p class="pay-and-feed__subtitle-about">
                         Providing our animals with high-quality nutritious diets is just one element of animal care at
@@ -365,11 +365,11 @@
 
             <div class="pay-and-feed__punkt1">
                 <p class="pay-and-feed__number1">02</p>
-                <img src="assets/svg/border.svg" alt="border">
+                <img src="assets/svg/border.svg" alt="border" class="pay-and-feed__border">
             </div>
 
             <div class="pay-and-feed__paragraph1">
-                <img src="assets/png/pay2.png" alt="banana">
+                <img src="assets/png/pay2.png" alt="banana" class="pay-and-feed__img">
                 <div class="pay-and-feed__about1">
                     <img src="assets/svg/paylogo2.svg" alt="donation-is-important">
                     <h3 class="pay-and-feed__subtitle1">Make a donation</h3>
@@ -385,11 +385,11 @@
 
             <div class="pay-and-feed__punkt1">
                 <p class="pay-and-feed__number1">03</p>
-                <img src="assets/svg/border.svg" alt="border">
+                <img src="assets/svg/border.svg" alt="border" class="pay-and-feed__border">
             </div>
 
             <div class="pay-and-feed__paragraph1">
-                <img src="assets/png/pay3.png" alt="monkey-eats">
+                <img src="assets/png/pay3.png" alt="monkey-eats" class="pay-and-feed__img">
                 <div class="pay-and-feed__about1">
                     <img src="assets/svg/paylogo3.svg" alt="donation-is-important">
                     <h3 class="pay-and-feed__subtitle1">Bring your food charity — straight to your favorites pets.</h3>
@@ -406,9 +406,11 @@
                 <img src="assets/svg/button-arrow.svg" alt="Button-arrow"
                     class="watch-your-favorite-animal-online__arrow-right">
             </a>
+            
         </div>
+        
     </section>
-
+    <div class="pay-and-feed__indent"></div>
     <section class="what-our-users-think">
         <div class="wrapper">
             <div class="what-our-users__content">
@@ -419,6 +421,7 @@
                         Below you can leave your own feedback, or simply view feedback from past clients.
                     </p>
                 </div>
+                <div class="what-our-users-think__messages-rows">
                 <ul class="what-our-users-think__messages-first-row">
                     <li class="what-our-users-think__item">
                         <img src="assets/svg/quotes.svg" alt="quotes" class="what-our-users-think__quotes">
@@ -466,13 +469,15 @@
                         <p class="what-our-users-think__item-author">Tomas Ray</p>
                     </li>
                 </ul>
+                </div>
+
             </div>
 
             <div class="what-our-users-think__buttons">
-                <a href="" class="what-our-users-think__button-left">
+                <a href="#!" class="what-our-users-think__button-left">
                     <img src="assets/svg/left-arrow-white.svg" alt="Left-button">
                 </a>
-                <a href="" class="what-our-users-think__button-right">
+                <a href="#!" class="what-our-users-think__button-right">
                     <img src="assets/svg/button-arrow.svg" alt="Right-button">
                 </a>
             </div>
@@ -491,14 +496,14 @@
             <h2 class="care__title">care for the animals you love </h2>
             <p class="care__subtitle">You can help to look after the animals you love with your gift today
             </p>
-            <ul class="care__first-row">
-                <li class="care__item">
-                    <img src="assets/png/care-koala.png" alt="koala" class="care__pic">
-                </li>
-                <li class="care__item card">
-                    <a href="zoos/pandas-page.html" class="care__link">
+            <div class="care__items">
+
+                <div class="care__item_big">
+                    
+                </div>
+                <div class="care__item">
+                    <a href="zoos/pandas-page.html" class="care__image">
                         <img src="assets/png/care-panda.png" alt="panda" class="care__pic">
-                    </a>
                     <div class="care__about">
                         <p class="care__subtitle-animal">
                             Your $30 could give Lucas a slice of panda cake, made with our secret recipe.
@@ -508,61 +513,56 @@
                             <img src="assets/svg/button-arrow-orange.svg" alt="Button-arrow"
                                 class="meet-some-our-friends__arrow-right">
                         </a>
-                    </div>
-                </li>
-            </ul>
-            <ul class="care__second-row">
-                <li class="care__item card">
-                    <a href="#!" class="care__link">
-                        <img src="assets/png/care-tiger.png" alt="tiger" class="care__pic">
+                    </div> 
                     </a>
-                    <a href="#!" class="meet-some-our-friends__link-card">
+                </div>
+                <div class="care__item">
+                    <a href="#!" class="care__image">
+                        <img src="assets/png/care-tiger.png" alt="tiger" class="care__pic">
                         <div class="care__about">
                             <p class="care__subtitle-animal">
                                 Your $150 will help to care for Senja, a Sumatran tiger, for three weeks.
                             </p>
-                            <a href="#!" class="care__button">
+                            <a href="zoos/pandas-page.html" class="care__button">
                                 <span class="care__text">feed</span>
                                 <img src="assets/svg/button-arrow-orange.svg" alt="Button-arrow"
                                     class="meet-some-our-friends__arrow-right">
                             </a>
-                        </div>
+                        </div> 
                     </a>
-                </li>
-                <li class="care__item card">
-                    <a href="zoos/lemurs-page.html" class="care__link">
+                </div>
+                <div class="care__item">
+                    <a href="zoos/lemurs-page.html" class="care__image">
                         <img src="assets/png/care-lemur.png" alt="lemur" class="care__pic">
-                    </a>
-                    <a href="zoos/lemurs-page.html" class="meet-some-our-friends__link-card">
                         <div class="care__about">
                             <p class="care__subtitle-animal">
-                                With your support, we can give Andy his favorite fruits.
+                                With your support, we can give Andy his favorite fruits. 
                                 Especially when it's not fruit season in its natural habitat.
                             </p>
-                            <a href="#!" class="care__button">
+                            <a href="zoos/pandas-page.html" class="care__button">
                                 <span class="care__text">feed</span>
                                 <img src="assets/svg/button-arrow-orange.svg" alt="Button-arrow"
                                     class="meet-some-our-friends__arrow-right">
                             </a>
-                        </div>
+                        </div> 
                     </a>
-                </li>
-                <li class="care__item card">
-                    <a href="zoos/eagles-page.html" class="care__link">
+                </div>
+                <div class="care__item">
+                    <a href="zoos/eagles-page.html" class="care__image">
                         <img src="assets/png/care-eagles.png" alt="eagles" class="care__pic">
+                        <div class="care__about">
+                            <p class="care__subtitle-animal">
+                                Sam & Lora have hatched and raised numerous young and will be happy with your help. 
+                            </p>
+                            <a href="zoos/pandas-page.html" class="care__button">
+                                <span class="care__text">feed</span>
+                                <img src="assets/svg/button-arrow-orange.svg" alt="Button-arrow"
+                                    class="meet-some-our-friends__arrow-right">
+                            </a>
+                        </div> 
                     </a>
-                    <div class="care__about">
-                        <p class="care__subtitle-animal">
-                            Sam & Lora have hatched and raised numerous young and will be happy with your help.
-                        </p>
-                        <a href="#!" class="care__button">
-                            <span class="care__text">feed</span>
-                            <img src="assets/svg/button-arrow-orange.svg" alt="Button-arrow"
-                                class="meet-some-our-friends__arrow-right">
-                        </a>
-                    </div>
-                </li>
-            </ul>
+                </div>
+            </div>
             <a href="map.html" class="care__button-favourite">
                 <span class="care__text-favourite">choose your favourite</span>
                 <img src="assets/svg/button-arrow-right.svg" alt="Button-arrow">
@@ -572,52 +572,55 @@
     </section>
     <footer class="footer">
         <div class="wrapper">
-            <ul class="footer__list">
-                <li class="footer__logo-item">
-                    <a href="index.html" class="footer__link">
-                        <img src="assets/svg/footer-zoo-logo.svg" alt="Logo-zoo" title="Online-Zoo">
-                    </a>
-                </li>
-                <li class="footer__logo-item">
-                    <a href="#!" class="footer__link">
-                        <img src="assets/svg/Yem-Digital.svg" alt="yd-zoo" title="Yem-Digital">
-                    </a>
-                </li>
-                <li class="footer__logo-item last">
-                    <a href="#!" class="footer__link">
-                        <img src="assets/svg/rs_school_js logo.svg" alt="rsschool-zoo" title="RSschool">
-                    </a>
-                </li>
-                <li class="footer__item">
-                    <a href="index.html" class="footer__link nav">
-                        about
-                    </a>
-                </li>
-                <li class="footer__item">
-                    <a href="map.html" class="footer__link nav">
-                        map
-                    </a>
-                </li>
-                <li class="footer__item">
-                    <a href="zoos/pandas-page.html" class="footer__link nav">
-                        zoos
-                    </a>
-                </li>
-                <li class="footer__item last">
-                    <a href="contact.html" class="footer__link nav">
-                        contact us
-                    </a>
-                </li>
-                <li class="footer_item-button">
+            <div class="footer__list-button">
+                <ul class="footer__list">
+                    <li class="footer__logo-item">
+                        <a href="index.html" class="footer__link">
+                            <img src="assets/svg/footer-zoo-logo.svg" alt="Logo-zoo" title="Online-Zoo">
+                        </a>
+                    </li>
+                    <li class="footer__logo-item">
+                        <a href="#!" class="footer__link">
+                            <img src="assets/svg/Yem-Digital.svg" alt="yd-zoo" title="Yem-Digital">
+                        </a>
+                    </li>
+                    <li class="footer__logo-item last">
+                        <a href="#!" class="footer__link">
+                            <img src="assets/svg/rs_school_js logo.svg" alt="rsschool-zoo" title="RSschool">
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="index.html" class="footer__link nav">
+                            about
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="map.html" class="footer__link nav">
+                            map
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="zoos/pandas-page.html" class="footer__link nav">
+                            zoos
+                        </a>
+                    </li>
+                    <li class="footer__item last">
+                        <a href="contact.html" class="footer__link last">
+                            contact us
+                        </a>
+                    </li>
+                </ul>
+                <div class="footer_item-button">
                     <a href="#!" class="footer__button">
                         <span class="footer__text">donate for volunteers</span>
                         <img src="assets/svg/button-arrow.svg" alt="Button-arrow">
                     </a>
-                </li>
-            </ul>
+                </div>  
+            </div>
+
             <img src="assets/svg/divider.svg" alt="border" class="foooter__divider">
             <ul class="footer__under-list">
-                <li class="footer__corp-item">
+                <li class="footer__corp-item first">
                     <a href="#!" class="footer__corp-link">
                         © 2021 DinaK
                     </a>
@@ -632,21 +635,21 @@
                         © RSSchool
                     </a>
                 </li>
-                <li class="footer__item-logo first">
-                    <a href="https://www.youtube.com/" class="footer__link-logo">
-                        <img src="assets/svg/youtube_logo.svg" alt="Youtube-link">
-                    </a>
-                </li>
-                <li class="footer__item-logo">
-                    <a href="https://www.instagram.com/" class="footer__link-logo">
-                        <img src="assets/svg/instagram_logo.svg" alt="Instagram-link">
-                    </a>
-                </li>
-                <li class="footer__item-logo">
-                    <a href="https://www.facebook.com/" class="footer__link-logo last">
-                        <img src="assets/svg/facebook_logo.svg" alt="Facebook-link">
-                    </a>
-                </li>
+                    <li class="footer__item-logo first">
+                        <a href="https://www.youtube.com/" class="footer__link-logo">
+                            <img src="assets/svg/youtube_logo.svg" alt="Youtube-link">
+                        </a>
+                    </li>
+                    <li class="footer__item-logo">
+                        <a href="https://www.instagram.com/" class="footer__link-logo">
+                            <img src="assets/svg/instagram_logo.svg" alt="Instagram-link">
+                        </a>
+                    </li>
+                    <li class="footer__item-logo">
+                        <a href="https://www.facebook.com/" class="footer__link-logo last">
+                            <img src="assets/svg/facebook_logo.svg" alt="Facebook-link">
+                        </a>
+                    </li>
             </ul>
         </div>
     </footer>
