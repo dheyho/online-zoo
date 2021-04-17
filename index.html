@@ -15,12 +15,13 @@
     <section class="landing">
         <div class="wrapper">
             <header class="header">
-
+                
                 <h1 class="header__logo">
                     <a href="index.html" class="header__logo-link">
                         <img src="assets/svg/header_logo_zoo.svg" alt="Logo-zoo" class="header__logo-pic">
                     </a>
                 </h1>
+                
 
                 <nav class="header__nav">
                     <ul class="header__list">
@@ -67,6 +68,25 @@
                         </li>
                     </ul>
                 </nav>
+                <div class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                        <span>
+                            <hr class="burger-line">
+                            <hr class="burger-line">
+                            <hr class="burger-line">
+                        </span>
+                    </label>
+                    <ul class="menu__box">
+                        <li><a class="menu__item onpage" href="index.html">about</a></li>
+                        <li><a class="menu__item" href="map.html">map</a></li>
+                        <li><a class="menu__item" href="zoos/pandas-page.html">zoos</a></li>
+                        <li><a class="menu__item" href="contact.html">contact us</a></li>
+                        <li><a class="menu__item"
+                                href="https://www.figma.com/file/lnK11foY8Aoa6oOlDXovVN/Online-ZOO-Project">design</a>
+                        </li>
+                    </ul>
+                </div>
             </header>
         </div>
     </section>
@@ -160,7 +180,7 @@
                 <ul class="meet-some-our-friends__first-row">
                     <li class="meet-some-our-friends__item">
                         <a href="zoos/pandas-page.html" class="meet-some-our-friends__link">
-                            <img src="assets/png/panda.png" alt="panda" class="meet-some-our-friends__panda">
+                            <img src="assets/png/panda.png" alt="panda" class="meet-some-our-friends__image">
 
                         </a>
                         <span class="meet-some-our-friends__animal-caption">
@@ -184,7 +204,7 @@
                     </li>
                     <li class="meet-some-our-friends__item">
                         <a href="zoos/lemurs-page.html" class="meet-some-our-friends__link">
-                            <img src="assets/png/lemur.png" alt="lemur" class="meet-some-our-friends__lemur">
+                            <img src="assets/png/lemur.png" alt="lemur" class="meet-some-our-friends__image">
                         </a>
                         <span class="meet-some-our-friends__animal-caption">
                             Andy
@@ -204,7 +224,7 @@
                     </li>
                     <li class="meet-some-our-friends__item">
                         <a href="zoos/gorillas-page.html" class="meet-some-our-friends__link">
-                            <img src="assets/png/gorilla.png" alt="gorilla" class="meet-some-our-friends__gorilla">
+                            <img src="assets/png/gorilla.png" alt="gorilla" class="meet-some-our-friends__image">
                         </a>
                         <span class="meet-some-our-friends__animal-caption">
                             Glen
@@ -225,7 +245,7 @@
                     </li>
                     <li class="meet-some-our-friends__item ">
                         <a href="#!" class="meet-some-our-friends__link need-hide">
-                            <img src="assets/png/croco.png" alt="crocodile" class="meet-some-our-friends__croco">
+                            <img src="assets/png/croco.png" alt="crocodile" class="meet-some-our-friends__image">
                         </a>
                         <span class="meet-some-our-friends__animal-caption need-hide">
                             Mike
@@ -245,9 +265,9 @@
                     </li>
                 </ul>
                 <ul class="meet-some-our-friends__second-row">
-                    <li class="meet-some-our-friends__item">
+                    <li class="meet-some-our-friends__item need-hide640">
                         <a href="zoos/eagles-page.html" class="meet-some-our-friends__link">
-                            <img src="assets/png/eagle.png" alt="eagles" class="meet-some-our-friends__eagles">
+                            <img src="assets/png/eagle.png" alt="eagles" class="meet-some-our-friends__image">
                         </a>
                         <span class="meet-some-our-friends__animal-caption">
                             Sam & Lora
@@ -267,7 +287,7 @@
                     </li>
                     <li class="meet-some-our-friends__item">
                         <a href="#!" class="meet-some-our-friends__link">
-                            <img src="assets/png/coala.png" alt="koala" class="meet-some-our-friends__koala">
+                            <img src="assets/png/coala.png" alt="koala" class="meet-some-our-friends__image">
                         </a>
                         <span class="meet-some-our-friends__animal-caption">
                             Liz
@@ -288,7 +308,7 @@
                     </li>
                     <li class="meet-some-our-friends__item">
                         <a href="#!" class="meet-some-our-friends__link">
-                            <img src="assets/png/lion.png" alt="lion" class="meet-some-our-friends__lion">
+                            <img src="assets/png/lion.png" alt="lion" class="meet-some-our-friends__image">
                         </a>
                         <span class="meet-some-our-friends__animal-caption">
                             Shake
@@ -309,9 +329,9 @@
                             </div>
                         </a>
                     </li>
-                    <li class="meet-some-our-friends__item">
+                    <li class="meet-some-our-friends__item need-hide640">
                         <a href="#!" class="meet-some-our-friends__link need-hide">
-                            <img src="assets/png/tiger.png" alt="tiger" class="meet-some-our-friends__tiger">
+                            <img src="assets/png/tiger.png" alt="tiger" class="meet-some-our-friends__image">
                         </a>
                         <span class="meet-some-our-friends__animal-caption need-hide">
                             Senja
@@ -340,75 +360,75 @@
     </section>
     <section class="pay-and-feed">
         <div class="wrapper">
-            <h2 class="pay-and-feed__title">pay and feed</h2>
-            <div class="pay-and-feed__punkt">
-                <p class="pay-and-feed__number">01</p>
-                <img src="assets/svg/border.svg" alt="border" class="pay-and-feed__border">
-            </div>
-            <div class="pay-and-feed__paragraph">
-                <img src="assets/png/pay1.png" alt="monkey" class="pay-and-feed__img">
-                <div class="pay-and-feed__about">
-                    <img src="assets/svg/paylogo1.svg" alt="donation-is-important" >
-                    <h3 class="pay-and-feed__subtitle">Your donation has an impact</h3>
-                    <p class="pay-and-feed__subtitle-about">
-                        Providing our animals with high-quality nutritious diets is just one element of animal care at
-                        our Zoo.
-                        We do all the best so that our animals can eat food similar to what they might find in their
-                        natural habitats while making sure they get the right mix of nutrients, proteins, and vitamins
-                        to be happy and healthy.
-                        Please help us provide nutritious food for our animals by donating.
-                        The generosity of people like you can help us make sure that our animals enjoy good food that
-                        keeps them in great condition.
-                    </p>
+                <h2 class="pay-and-feed__title">pay and feed</h2>
+                <div class="pay-and-feed__punkt">
+                    <p class="pay-and-feed__number">01</p>
+                    <img src="assets/svg/border.svg" alt="border" class="pay-and-feed__border">
                 </div>
-            </div>
-
-            <div class="pay-and-feed__punkt1">
-                <p class="pay-and-feed__number1">02</p>
-                <img src="assets/svg/border.svg" alt="border" class="pay-and-feed__border">
-            </div>
-
-            <div class="pay-and-feed__paragraph1">
-                <img src="assets/png/pay2.png" alt="banana" class="pay-and-feed__img">
-                <div class="pay-and-feed__about1">
-                    <img src="assets/svg/paylogo2.svg" alt="donation-is-important">
-                    <h3 class="pay-and-feed__subtitle1">Make a donation</h3>
-                    <p class="pay-and-feed__subtitle-about1">
-                        You can donate through your credit card without any fees.
-                        It is easy and safe.
-                        We do not keep donors' personal information on an online network.
-                        Choose an amount to give and the pet's name if needed.
-                        One of the most effective ways you can give is by making regular donations.
-                    </p>
+                <div class="pay-and-feed__paragraph">
+                    <img src="assets/png/pay1.png" alt="monkey" class="pay-and-feed__img">
+                    <div class="pay-and-feed__about">
+                        <img src="assets/svg/paylogo1.svg" alt="donation-is-important">
+                        <h3 class="pay-and-feed__subtitle">Your donation has an impact</h3>
+                        <p class="pay-and-feed__subtitle-about">
+                            Providing our animals with high-quality nutritious diets is just one element of animal care at
+                            our Zoo.
+                            We do all the best so that our animals can eat food similar to what they might find in their
+                            natural habitats while making sure they get the right mix of nutrients, proteins, and vitamins
+                            to be happy and healthy.
+                            Please help us provide nutritious food for our animals by donating.
+                            The generosity of people like you can help us make sure that our animals enjoy good food that
+                            keeps them in great condition.
+                        </p>
+                    </div>
                 </div>
-            </div>
-
-            <div class="pay-and-feed__punkt1">
-                <p class="pay-and-feed__number1">03</p>
-                <img src="assets/svg/border.svg" alt="border" class="pay-and-feed__border">
-            </div>
-
-            <div class="pay-and-feed__paragraph1">
-                <img src="assets/png/pay3.png" alt="monkey-eats" class="pay-and-feed__img">
-                <div class="pay-and-feed__about1">
-                    <img src="assets/svg/paylogo3.svg" alt="donation-is-important">
-                    <h3 class="pay-and-feed__subtitle1">Bring your food charity — straight to your favorites pets.</h3>
-                    <p class="pay-and-feed__subtitle-about1">
-                        After your donation, the animal receives its favorite foods.
-                        You can support your favorite animals or any animal you care about and make a real personal
-                        impact.
-                        Never doubt that your donation can make a difference even if it is small.
-                    </p>
+    
+                <div class="pay-and-feed__punkt1">
+                    <p class="pay-and-feed__number1">02</p>
+                    <img src="assets/svg/border.svg" alt="border" class="pay-and-feed__border">
                 </div>
+    
+                <div class="pay-and-feed__paragraph1">
+                    <img src="assets/png/pay2.png" alt="banana" class="pay-and-feed__img">
+                    <div class="pay-and-feed__about1">
+                        <img src="assets/svg/paylogo2.svg" alt="donation-is-important">
+                        <h3 class="pay-and-feed__subtitle1">Make a donation</h3>
+                        <p class="pay-and-feed__subtitle-about1">
+                            You can donate through your credit card without any fees.
+                            It is easy and safe.
+                            We do not keep donors' personal information on an online network.
+                            Choose an amount to give and the pet's name if needed.
+                            One of the most effective ways you can give is by making regular donations.
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="pay-and-feed__punkt1">
+                    <p class="pay-and-feed__number1">03</p>
+                    <img src="assets/svg/border.svg" alt="border" class="pay-and-feed__border">
+                </div>
+    
+                <div class="pay-and-feed__paragraph1">
+                    <img src="assets/png/pay3.png" alt="monkey-eats" class="pay-and-feed__img">
+                    <div class="pay-and-feed__about1">
+                        <img src="assets/svg/paylogo3.svg" alt="donation-is-important">
+                        <h3 class="pay-and-feed__subtitle1">Bring your food charity — straight to your favorites pets.</h3>
+                        <p class="pay-and-feed__subtitle-about1">
+                            After your donation, the animal receives its favorite foods.
+                            You can support your favorite animals or any animal you care about and make a real personal
+                            impact.
+                            Never doubt that your donation can make a difference even if it is small.
+                        </p>
+                    </div>
+                </div>
+                <a href="#!" class="pay-and-feed__button">
+                    <span class="pay-and-feed__text">donate now</span>
+                    <img src="assets/svg/button-arrow.svg" alt="Button-arrow"
+                        class="watch-your-favorite-animal-online__arrow-right">
+                </a>
+    
             </div>
-            <a href="#!" class="pay-and-feed__button">
-                <span class="pay-and-feed__text">donate now</span>
-                <img src="assets/svg/button-arrow.svg" alt="Button-arrow"
-                    class="watch-your-favorite-animal-online__arrow-right">
-            </a>
-            
-        </div>
-        
+            </div>
     </section>
     <div class="pay-and-feed__indent"></div>
     <section class="what-our-users-think">
@@ -422,53 +442,63 @@
                     </p>
                 </div>
                 <div class="what-our-users-think__messages-rows">
-                <ul class="what-our-users-think__messages-first-row">
-                    <li class="what-our-users-think__item">
-                        <img src="assets/svg/quotes.svg" alt="quotes" class="what-our-users-think__quotes">
-                        <h5 class="what-our-users-think__item-name">New Jersey, June 2020</h5>
-                        <p class="what-our-users-think__item-subname">
-                            I am writing to thank you for your mission is to bring people closer to nature!
-                            Like myself, children were very impressed by the opportunity to explore the life of
-                            incredible animals in real-time.
-                        </p>
-                        <p class="what-our-users-think__item-author">Karen Maithlan</p>
-                    </li>
-                    <li class="what-our-users-think__item  second">
-                        <img src="assets/svg/quotes.svg" alt="quotes" class="what-our-users-think__quotes">
-                        <h5 class="what-our-users-think__item-name">London, February 2020</h5>
-                        <p class="what-our-users-think__item-subname">
-                            A fantastic experience for kids and adults alike!
-                            If anyone is looking for an attraction that educates people on wild animals – it's for you!
-                            I highly recommend seeing for yourself the variety of animals on your screen.
-                        </p>
-                        <p class="what-our-users-think__item-author">C. Stockman</p>
-                    </li>
-                </ul>
-                <ul class="what-our-users-think__messages-second-row">
-                    <li class="what-our-users-think__item ">
-                        <!-- need-hide -->
-                        <img src="assets/svg/quotes.svg" alt="quotes" class="what-our-users-think__quotes">
-                        <h5 class="what-our-users-think__item-name">Toronto, November 2020</h5>
-                        <p class="what-our-users-think__item-subname">
-                            We so enjoy the ever-evolving selection of animals from around the globe.
-                            THANK YOU for sharing these fascinating animal friends with us so that we may learn and
-                            increase our understanding of the animal kingdom.
-                        </p>
-                        <p class="what-our-users-think__item-author">Carol Larsen</p>
-                    </li>
-                    <li class="what-our-users-think__item second ">
-                        <!-- need-hide -->
-                        <img src="assets/svg/quotes.svg" alt="quotes" class="what-our-users-think__quotes">
-                        <h5 class="what-our-users-think__item-name">Amsterdam, June 2020</h5>
-                        <p class="what-our-users-think__item-subname">
-                            I want to thank you for the amazing sites you find to put your cameras to let each of us see
-                            things that we would probably never see on our own.
-                            There are so many positives on Zoo Online and I'm grateful for it.
-                            Thank you so much!
-                        </p>
-                        <p class="what-our-users-think__item-author">Tomas Ray</p>
-                    </li>
-                </ul>
+                    <ul class="what-our-users-think__messages-first-row">
+                        <li class="what-our-users-think__item">
+                            <div class="what-our-users-think__quotes-and-item-name">
+                                <img src="assets/svg/quotes.svg" alt="quotes" class="what-our-users-think__quotes">
+                                <h5 class="what-our-users-think__item-name">New Jersey, June 2020</h5>
+                            </div>
+                            <p class="what-our-users-think__item-subname">
+                                I am writing to thank you for your mission is to bring people closer to nature!
+                                Like myself, children were very impressed by the opportunity to explore the life of
+                                incredible animals in real-time.
+                            </p>
+                            <p class="what-our-users-think__item-author">Karen Maithlan</p>
+                        </li>
+                        <li class="what-our-users-think__item  second need-hide640">
+                            <div class="what-our-users-think__quotes-and-item-name">
+                                <img src="assets/svg/quotes.svg" alt="quotes" class="what-our-users-think__quotes">
+                                <h5 class="what-our-users-think__item-name">London, February 2020</h5>
+                            </div>
+                            <p class="what-our-users-think__item-subname">
+                                A fantastic experience for kids and adults alike!
+                                If anyone is looking for an attraction that educates people on wild animals – it's for
+                                you!
+                                I highly recommend seeing for yourself the variety of animals on your screen.
+                            </p>
+                            <p class="what-our-users-think__item-author">C. Stockman</p>
+                        </li>
+                    </ul>
+                    <ul class="what-our-users-think__messages-second-row">
+                        <li class="what-our-users-think__item ">
+                            <!-- need-hide -->
+                            <div class="what-our-users-think__quotes-and-item-name">
+                                <img src="assets/svg/quotes.svg" alt="quotes" class="what-our-users-think__quotes">
+                                <h5 class="what-our-users-think__item-name">Toronto, November 2020</h5>
+                            </div>
+                            <p class="what-our-users-think__item-subname">
+                                We so enjoy the ever-evolving selection of animals from around the globe.
+                                THANK YOU for sharing these fascinating animal friends with us so that we may learn and
+                                increase our understanding of the animal kingdom.
+                            </p>
+                            <p class="what-our-users-think__item-author">Carol Larsen</p>
+                        </li>
+                        <li class="what-our-users-think__item second need-hide640">
+                            <!-- need-hide -->
+                            <div class="what-our-users-think__quotes-and-item-name">
+                                <img src="assets/svg/quotes.svg" alt="quotes" class="what-our-users-think__quotes">
+                                <h5 class="what-our-users-think__item-name">Amsterdam, June 2020</h5>
+                            </div>
+                            <p class="what-our-users-think__item-subname">
+                                I want to thank you for the amazing sites you find to put your cameras to let each of us
+                                see
+                                things that we would probably never see on our own.
+                                There are so many positives on Zoo Online and I'm grateful for it.
+                                Thank you so much!
+                            </p>
+                            <p class="what-our-users-think__item-author">Tomas Ray</p>
+                        </li>
+                    </ul>
                 </div>
 
             </div>
@@ -499,25 +529,25 @@
             <div class="care__items">
 
                 <div class="care__item_big">
-                    
+
                 </div>
                 <div class="care__item">
                     <a href="zoos/pandas-page.html" class="care__image">
                         <img src="assets/png/care-panda.png" alt="panda" class="care__pic">
-                    <div class="care__about">
-                        <p class="care__subtitle-animal">
-                            Your $30 could give Lucas a slice of panda cake, made with our secret recipe.
-                        </p>
-                        <a href="zoos/pandas-page.html" class="care__button">
-                            <span class="care__text">feed</span>
-                            <img src="assets/svg/button-arrow-orange.svg" alt="Button-arrow"
-                                class="meet-some-our-friends__arrow-right">
-                        </a>
-                    </div> 
+                        <div class="care__about">
+                            <p class="care__subtitle-animal">
+                                Your $30 could give Lucas a slice of panda cake, made with our secret recipe.
+                            </p>
+                            <a href="zoos/pandas-page.html" class="care__button">
+                                <span class="care__text">feed</span>
+                                <img src="assets/svg/button-arrow-orange.svg" alt="Button-arrow"
+                                    class="meet-some-our-friends__arrow-right">
+                            </a>
+                        </div>
                     </a>
                 </div>
-                <div class="care__item">
-                    <a href="#!" class="care__image">
+                <div class="care__item need-hide640">
+                    <a href="#!" class="care__image ">
                         <img src="assets/png/care-tiger.png" alt="tiger" class="care__pic">
                         <div class="care__about">
                             <p class="care__subtitle-animal">
@@ -528,15 +558,15 @@
                                 <img src="assets/svg/button-arrow-orange.svg" alt="Button-arrow"
                                     class="meet-some-our-friends__arrow-right">
                             </a>
-                        </div> 
+                        </div>
                     </a>
                 </div>
-                <div class="care__item">
+                <div class="care__item need-hide640">
                     <a href="zoos/lemurs-page.html" class="care__image">
                         <img src="assets/png/care-lemur.png" alt="lemur" class="care__pic">
                         <div class="care__about">
                             <p class="care__subtitle-animal">
-                                With your support, we can give Andy his favorite fruits. 
+                                With your support, we can give Andy his favorite fruits.
                                 Especially when it's not fruit season in its natural habitat.
                             </p>
                             <a href="zoos/pandas-page.html" class="care__button">
@@ -544,97 +574,127 @@
                                 <img src="assets/svg/button-arrow-orange.svg" alt="Button-arrow"
                                     class="meet-some-our-friends__arrow-right">
                             </a>
-                        </div> 
+                        </div>
                     </a>
                 </div>
-                <div class="care__item">
+                <div class="care__item need-hide640">
                     <a href="zoos/eagles-page.html" class="care__image">
                         <img src="assets/png/care-eagles.png" alt="eagles" class="care__pic">
                         <div class="care__about">
                             <p class="care__subtitle-animal">
-                                Sam & Lora have hatched and raised numerous young and will be happy with your help. 
+                                Sam & Lora have hatched and raised numerous young and will be happy with your help.
                             </p>
                             <a href="zoos/pandas-page.html" class="care__button">
                                 <span class="care__text">feed</span>
                                 <img src="assets/svg/button-arrow-orange.svg" alt="Button-arrow"
                                     class="meet-some-our-friends__arrow-right">
                             </a>
-                        </div> 
+                        </div>
                     </a>
                 </div>
             </div>
+            <div class="care__radio-buttons">
+                <div class="form_radio">
+                    <input id="radio-1" type="radio" name="radio" value="1" checked>
+                    <label for="radio-1"></label>
+                </div>
+                 
+                <div class="form_radio">
+                    <input id="radio-2" type="radio" name="radio" value="2">
+                    <label for="radio-2"></label>
+                </div>
+                 
+                <div class="form_radio">
+                    <input id="radio-3" type="radio" name="radio" value="3">
+                    <label for="radio-3"></label>
+                </div>
+                 
+                <div class="form_radio">
+                    <input id="radio-4" type="radio" name="radio" value="4">
+                    <label for="radio-4"></label>
+                </div>
+            </div>
+
             <a href="map.html" class="care__button-favourite">
                 <span class="care__text-favourite">choose your favourite</span>
                 <img src="assets/svg/button-arrow-right.svg" alt="Button-arrow">
             </a>
-            <img src="assets/png/touch-the-animal.png" alt="touch-the-animal" class="care__touch-animal">
+            <img src="assets/png/touch-the-animal.png" alt="touch-the-animal" class="care__touch-animal">   
         </div>
     </section>
     <footer class="footer">
         <div class="wrapper">
             <div class="footer__list-button">
                 <ul class="footer__list">
-                    <li class="footer__logo-item">
-                        <a href="index.html" class="footer__link">
-                            <img src="assets/svg/footer-zoo-logo.svg" alt="Logo-zoo" title="Online-Zoo">
+                    <div class="footer_logo-items">
+                        <li class="footer__logo-item">
+                            <a href="index.html" class="footer__link">
+                                <img src="assets/svg/footer-zoo-logo.svg" alt="Logo-zoo" title="Online-Zoo">
+                            </a>
+                        </li>
+                        <li class="footer__logo-item">
+                            <a href="#!" class="footer__link">
+                                <img src="assets/svg/Yem-Digital.svg" alt="yd-zoo" title="Yem-Digital">
+                            </a>
+                        </li>
+                        <li class="footer__logo-item last">
+                            <a href="#!" class="footer__link">
+                                <img src="assets/svg/rs_school_js logo.svg" alt="rsschool-zoo" title="RSschool">
+                            </a>
+                        </li>
+                    </div>
+                    <div class="footer__items">
+                        <li class="footer__item">
+                            <a href="index.html" class="footer__link nav">
+                                about
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="map.html" class="footer__link nav">
+                                map
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="zoos/pandas-page.html" class="footer__link nav">
+                                zoos
+                            </a>
+                        </li>
+                        <li class="footer__item last">
+                            <a href="contact.html" class="footer__link last">
+                                contact us
+                            </a>
+                        </li>
+                    </div>
+                    <div class="footer_item-button">
+                        <a href="#!" class="footer__button">
+                            <span class="footer__text">donate for volunteers</span>
+                            <img src="assets/svg/button-arrow.svg" alt="Button-arrow">
                         </a>
-                    </li>
-                    <li class="footer__logo-item">
-                        <a href="#!" class="footer__link">
-                            <img src="assets/svg/Yem-Digital.svg" alt="yd-zoo" title="Yem-Digital">
-                        </a>
-                    </li>
-                    <li class="footer__logo-item last">
-                        <a href="#!" class="footer__link">
-                            <img src="assets/svg/rs_school_js logo.svg" alt="rsschool-zoo" title="RSschool">
-                        </a>
-                    </li>
-                    <li class="footer__item">
-                        <a href="index.html" class="footer__link nav">
-                            about
-                        </a>
-                    </li>
-                    <li class="footer__item">
-                        <a href="map.html" class="footer__link nav">
-                            map
-                        </a>
-                    </li>
-                    <li class="footer__item">
-                        <a href="zoos/pandas-page.html" class="footer__link nav">
-                            zoos
-                        </a>
-                    </li>
-                    <li class="footer__item last">
-                        <a href="contact.html" class="footer__link last">
-                            contact us
-                        </a>
-                    </li>
+                    </div>
                 </ul>
-                <div class="footer_item-button">
-                    <a href="#!" class="footer__button">
-                        <span class="footer__text">donate for volunteers</span>
-                        <img src="assets/svg/button-arrow.svg" alt="Button-arrow">
-                    </a>
-                </div>  
+
             </div>
 
             <img src="assets/svg/divider.svg" alt="border" class="foooter__divider">
             <ul class="footer__under-list">
-                <li class="footer__corp-item first">
-                    <a href="#!" class="footer__corp-link">
-                        © 2021 DinaK
-                    </a>
-                </li>
-                <li class="footer__corp-item">
-                    <a href="#!" class="footer__corp-link">
-                        © Yem Digital
-                    </a>
-                </li>
-                <li class="footer__corp-item last">
-                    <a href="#!" class="footer__corp-link">
-                        © RSSchool
-                    </a>
-                </li>
+                <div class="footer__corp-links">
+                    <li class="footer__corp-item first">
+                        <a href="#!" class="footer__corp-link">
+                            © 2021 DinaK
+                        </a>
+                    </li>
+                    <li class="footer__corp-item">
+                        <a href="#!" class="footer__corp-link">
+                            © Yem Digital
+                        </a>
+                    </li>
+                    <li class="footer__corp-item last">
+                        <a href="#!" class="footer__corp-link">
+                            © RSSchool
+                        </a>
+                    </li>
+                </div>
+                <div class="footer__item-logos">
                     <li class="footer__item-logo first">
                         <a href="https://www.youtube.com/" class="footer__link-logo">
                             <img src="assets/svg/youtube_logo.svg" alt="Youtube-link">
@@ -650,6 +710,7 @@
                             <img src="assets/svg/facebook_logo.svg" alt="Facebook-link">
                         </a>
                     </li>
+                </div>
             </ul>
         </div>
     </footer>

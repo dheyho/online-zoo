@@ -14,12 +14,13 @@
     <section class="landing">
         <div class="wrapper">
             <header class="header">
-
+                
                 <h1 class="header__logo">
                     <a href="../index.html" class="header__logo-link">
                         <img src="../assets/svg/header_logo_zoo.svg" alt="Logo-zoo" class="header__logo-pic">
                     </a>
                 </h1>
+                
 
                 <nav class="header__nav">
                     <ul class="header__list">
@@ -34,7 +35,7 @@
                             </a>
                         </li>
                         <li class="header__item">
-                            <a href="../zoos/pandas-page.html" class="header__link">
+                            <a href="zoos/pandas-page.html" class="header__link">
                                 zoos
                             </a>
                         </li>
@@ -66,6 +67,25 @@
                         </li>
                     </ul>
                 </nav>
+                <div class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                        <span>
+                            <hr class="burger-line">
+                            <hr class="burger-line">
+                            <hr class="burger-line">
+                        </span>
+                    </label>
+                    <ul class="menu__box">
+                        <li><a class="menu__item" href="../index.html">about</a></li>
+                        <li><a class="menu__item" href="../map.html">map</a></li>
+                        <li><a class="menu__item onpage" href="zoos/pandas-page.html">zoos</a></li>
+                        <li><a class="menu__item" href="../contact.html">contact us</a></li>
+                        <li><a class="menu__item"
+                                href="https://www.figma.com/file/lnK11foY8Aoa6oOlDXovVN/Online-ZOO-Project">design</a>
+                        </li>
+                    </ul>
+                </div>
             </header>
         </div>
     </section>
@@ -131,7 +151,7 @@
                 </iframe>
                 <img src="../assets/svg/footer-zoo-logo.svg" alt="zoo logo" class="live-cams__zoo-logo">
             </div>
-            <h3 class="live-cams__cameras-title">more live views</h3>
+            <h3 class="live-cams__cameras-title">More live views</h3>
             <ul class="live-cams__list">
                 <li class="live-cams__item">
                     <a href="#!" class="live-cams__button-left">
@@ -196,7 +216,7 @@
                 <div class="quick-donate__donate">
                     <p class="quick-donate__donate-capture">Quick Donate</p>
                     <form class="quick-donate__menu">
-                        <input type="number" placeholder="Donation amount" class="quick-donate__input-number" max="4">
+                        <input type="number" placeholder="Donation amount" class="quick-donate__input-number" max="9999">
                         <button href="" class="quick-donate__button">
                             <img src="../assets/svg/button-arrow.svg" alt="Button-arrow-img">
                         </button>
@@ -279,84 +299,96 @@
     </section>
     <footer class="footer">
         <div class="wrapper">
-            <ul class="footer__list">
-                <li class="footer__logo-item">
-                    <a href="../index.html" class="footer__link">
-                        <img src="../assets/svg/footer-zoo-logo.svg" alt="Logo-zoo" title="Online-Zoo">
-                    </a>
-                </li>
-                <li class="footer__logo-item">
-                    <a href="#!" class="footer__link">
-                        <img src="../assets/svg/Yem-Digital.svg" alt="yd-zoo" title="Yem-Digital">
-                    </a>
-                </li>
-                <li class="footer__logo-item last">
-                    <a href="#!" class="footer__link">
-                        <img src="../assets/svg/rs_school_js logo.svg" alt="rsschool-zoo" title="RSschool">
-                    </a>
-                </li>
-                <li class="footer__item">
-                    <a href="../index.html" class="footer__link nav">
-                        about
-                    </a>
-                </li>
-                <li class="footer__item">
-                    <a href="../map.html" class="footer__link nav">
-                        map
-                    </a>
-                </li>
-                <li class="footer__item">
-                    <a href="../zoos/pandas-page.html" class="footer__link nav">
-                        zoos
-                    </a>
-                </li>
-                <li class="footer__item last">
-                    <a href="../contact.html" class="footer__link nav">
-                        contact us
-                    </a>
-                </li>
-                <li class="footer_item-button">
-                    <a href="#!" class="footer__button">
-                        <span class="footer__text">donate for volunteers</span>
-                        <img src="../assets/svg/button-arrow.svg" alt="Button-arrow">
-                    </a>
-                </li>
-            </ul>
+            <div class="footer__list-button">
+                <ul class="footer__list">
+                    <div class="footer_logo-items">
+                        <li class="footer__logo-item">
+                            <a href="index.html" class="footer__link">
+                                <img src="../assets/svg/footer-zoo-logo.svg" alt="Logo-zoo" title="Online-Zoo">
+                            </a>
+                        </li>
+                        <li class="footer__logo-item">
+                            <a href="#!" class="footer__link">
+                                <img src="../assets/svg/Yem-Digital.svg" alt="yd-zoo" title="Yem-Digital">
+                            </a>
+                        </li>
+                        <li class="footer__logo-item last">
+                            <a href="#!" class="footer__link">
+                                <img src="../assets/svg/rs_school_js logo.svg" alt="rsschool-zoo" title="RSschool">
+                            </a>
+                        </li>
+                    </div>
+                    <div class="footer__items">
+                        <li class="footer__item">
+                            <a href="../index.html" class="footer__link nav">
+                                about
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="../map.html" class="footer__link nav">
+                                map
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="../zoos/pandas-page.html" class="footer__link nav">
+                                zoos
+                            </a>
+                        </li>
+                        <li class="footer__item last">
+                            <a href="../contact.html" class="footer__link last">
+                                contact us
+                            </a>
+                        </li>
+                    </div>
+                    <div class="footer_item-button">
+                        <a href="#!" class="footer__button">
+                            <span class="footer__text">donate for volunteers</span>
+                            <img src="../assets/svg/button-arrow.svg" alt="Button-arrow">
+                        </a>
+                    </div>
+                </ul>
+
+            </div>
+
             <img src="../assets/svg/divider.svg" alt="border" class="foooter__divider">
             <ul class="footer__under-list">
-                <li class="footer__corp-item">
-                    <a href="" class="footer__corp-link">
-                        © 2021 DinaK 
-                    </a>
-                </li>
-                <li class="footer__corp-item">
-                    <a href="" class="footer__corp-link">
-                        © Yem Digital 
-                    </a>
-                </li>
-                <li class="footer__corp-item last">
-                    <a href="" class="footer__corp-link">
-                        © RSSchool
-                    </a>
-                </li>
-                <li class="footer__item-logo first">
-                    <a href="https://www.youtube.com/" class="footer__link-logo">
-                        <img src="../assets/svg/youtube_logo.svg" alt="Youtube-link">
-                    </a>
-                </li>
-                <li class="footer__item-logo">
-                    <a href="https://www.instagram.com/" class="footer__link-logo">
-                        <img src="../assets/svg/instagram_logo.svg" alt="Instagram-link">
-                    </a>
-                </li>
-                <li class="footer__item-logo">
-                    <a href="https://www.facebook.com/" class="footer__link-logo last">
-                        <img src="../assets/svg/facebook_logo.svg" alt="Facebook-link">
-                    </a>
-                </li>
+                <div class="footer__corp-links">
+                    <li class="footer__corp-item first">
+                        <a href="#!" class="footer__corp-link">
+                            © 2021 DinaK
+                        </a>
+                    </li>
+                    <li class="footer__corp-item">
+                        <a href="#!" class="footer__corp-link">
+                            © Yem Digital
+                        </a>
+                    </li>
+                    <li class="footer__corp-item last">
+                        <a href="#!" class="footer__corp-link">
+                            © RSSchool
+                        </a>
+                    </li>
+                </div>
+                <div class="footer__item-logos">
+                    <li class="footer__item-logo first">
+                        <a href="https://www.youtube.com/" class="footer__link-logo">
+                            <img src="../assets/svg/youtube_logo.svg" alt="Youtube-link">
+                        </a>
+                    </li>
+                    <li class="footer__item-logo">
+                        <a href="https://www.instagram.com/" class="footer__link-logo">
+                            <img src="../assets/svg/instagram_logo.svg" alt="Instagram-link">
+                        </a>
+                    </li>
+                    <li class="footer__item-logo">
+                        <a href="https://www.facebook.com/" class="footer__link-logo last">
+                            <img src="../assets/svg/facebook_logo.svg" alt="Facebook-link">
+                        </a>
+                    </li>
+                </div>
             </ul>
         </div>
-    </footer> 
+    </footer>
 </body>
 
 </html>
