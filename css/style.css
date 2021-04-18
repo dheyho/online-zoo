@@ -541,7 +541,7 @@ a {
 }
 @media (max-width: 630px){
     .how-we-work__info{
-        margin-right: -225px;
+        margin-right: 0px;
     }
 }
 
@@ -565,6 +565,7 @@ a {
 }
 @media (max-width: 630px){
     .how-we-work__title{
+        width: 300px;
         font-weight: 500;
         font-size: 26px;
         line-height: 32px;
@@ -4182,7 +4183,7 @@ input[type="number"]:-ms-input-placeholder      {color:white;}
         width: 140px;
         height: 110px;
     }
-    .live-cams__item-player.third{
+    .live-cams__item.third{
         display: none;
     }  
 }
@@ -4324,6 +4325,13 @@ input[type="number"]:-ms-input-placeholder      {color:white;}
         height: 22px;
     }
 }
+@media (max-width: 1190px){
+    .live-cams__camera{
+        width: 72px;
+        height: 22px;
+    }
+}
+
 
 
 .live-cams__invis{
