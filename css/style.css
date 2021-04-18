@@ -3632,7 +3632,6 @@ input[type="number"]:-ms-input-placeholder      {color:white;}
 }
 @media (max-width: 630px){
     .side-bar {
-        visibility: hidden;
         width: 50px;
     }
 }
@@ -3707,6 +3706,11 @@ input[type="number"]:-ms-input-placeholder      {color:white;}
         margin-bottom:18px ;
     }
 }
+@media (max-width: 630px){
+    .side-bar__info-button{
+        margin-left: 15px;
+    }
+}
     
     
 .side-bar__item {
@@ -3726,7 +3730,56 @@ input[type="number"]:-ms-input-placeholder      {color:white;}
 
     }
 }
-    
+@media (max-width: 630px){
+    .side-bar__item {
+        height: 50px;
+    }
+}
+
+
+/* side bar 320 */
+@media (max-width: 630px){
+    .side-bar__item.page-panda-active-320 {
+        background: url(../assets/svg/Panda-active-320.svg) no-repeat center;
+    }
+}
+@media (max-width: 630px){
+    .side-bar__item.page-eagle-active-320 {
+        background: url(../assets/svg/Eagle-active-320.svg) no-repeat center;
+    }
+}
+@media (max-width: 630px){
+    .side-bar__item.page-lemur-active-320 {
+        background: url(../assets/svg/Lemur-active-320.svg) no-repeat center;
+    }
+}
+@media (max-width: 630px){
+    .side-bar__item.page-gorilla-active-320 {
+        background: url(../assets/svg/Gorilla-active-320.svg) no-repeat center;
+    }
+}
+@media (max-width: 630px){
+    .side-bar__item.page-eagle-320 {
+        background: url(../assets/svg/Eagle-320.svg) no-repeat center;
+    }
+}
+@media (max-width: 630px){
+    .side-bar__item.page-gorilla-320 {
+        background: url(../assets/svg/Gorilla-320.svg) no-repeat center;
+    }
+}
+@media (max-width: 630px){
+    .side-bar__item.page-lemur-320 {
+        background: url(../assets/svg/Lemur-320.svg) no-repeat center;
+    }
+}
+@media (max-width: 630px){
+    .side-bar__item.page-panda-320 {
+        background: url(../assets/svg/Panda-320.svg) no-repeat center;
+    }
+}
+/* side bar 320 ENDS*/
+
     
 .side-bar__item-back {
     height: 120px;
@@ -3738,6 +3791,11 @@ input[type="number"]:-ms-input-placeholder      {color:white;}
     .side-bar__item-back {
         height: 100px;
         width: 100px;
+    }
+}
+@media (max-width: 630px){
+    .side-bar__item-back {
+        visibility: hidden;
     }
 }
     
@@ -3914,7 +3972,7 @@ input[type="number"]:-ms-input-placeholder      {color:white;}
 }
 @media (max-width: 630px){
     .live-cams{
-        margin-top: -530px;
+        margin-top: -340px;
     }
 }
 
