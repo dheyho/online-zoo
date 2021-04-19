@@ -4062,7 +4062,7 @@ input[type="number"]:-ms-input-placeholder      {color:white;}
     .live-cams__button{
         margin-right: 0px;
         position: absolute;
-        left: 380px;
+        left: 59.5%;
         top: 645px;
         height: 48px;  
         padding: 26px 45px;
@@ -4070,10 +4070,10 @@ input[type="number"]:-ms-input-placeholder      {color:white;}
 }
 @media (max-width: 630px){
     .live-cams__button{
-        margin-right: 0px;
+        margin-left: 0px;
         position: absolute; 
-        left: 10px;
         top: 605px;
+        left: 27%;
         height: 45px;  
         padding: 26px 45px;
         width: 300px;
@@ -4217,7 +4217,7 @@ input[type="number"]:-ms-input-placeholder      {color:white;}
         padding-left: 155px;
     }
 }
-@media (max-width: 6300px){
+@media (max-width: 630px){
     .live-cams__cameras-title{
         text-align: start;
         text-transform: uppercase;
