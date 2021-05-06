@@ -158,6 +158,7 @@ const donateBtnAmount = document.querySelector('.your-donation-makes-a-differenc
 donateBtnAmount.addEventListener('click', function () {
     if (donateInputAmount.value == '') {
         donateInput.value = 10;
+        donateBtn2[0].classList.add('btn-active');
     } else {
         donateInput.value = donateInputAmount.value;
     }
