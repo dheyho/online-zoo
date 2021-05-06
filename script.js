@@ -178,11 +178,7 @@ cvv.oninput = function () {
     this.value = this.value.substr(0, 3);
 }
 ccn.oninput = function () {
-    var foo = this.value.split(" ").join("");
-    if (foo.length > 0) {
-        foo = foo.match(new RegExp('.{1,4}', 'g')).join(" ");
-    }
-    this.value = foo.substr(0, 19);
+    this.value = this.value.substr(0,16);
 }
 
 const selectOption = document.querySelector('.popup__donation1-select');
