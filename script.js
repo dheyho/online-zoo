@@ -140,7 +140,7 @@ donateBtn2.forEach(element => {
 // FIRST POPUP
 for (let i = 0; i < donateBtn1.length; i++) {
     const donateBtn11 = donateBtn1[i];
-    const donateBtn22 = donateBtn2[i];
+    const donateBtn22 = donateBtn2[i+1];
     donateBtn11.addEventListener('click', event => {
         donateInput.value = +donateBtn22.innerHTML.slice(1);
         if (donateBtn22.classList.contains('popup__donation1-button')) {
